@@ -1,0 +1,18 @@
+.home {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 999;
+}
+.home::after {
+    content: '';
+    display: block;
+    background: url('/icons/home.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3.5rem;
+    height: 3.5rem;
+}

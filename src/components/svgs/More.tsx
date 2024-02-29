@@ -1,0 +1,4 @@
+const More = ({className}: {className?: string}) =>
+<svg className={className} viewBox="0 0 16 16" focusable="false"><g id="Group_2042" data-name="Group 2042" transform="translate(5940 4865)"><path id="drive_file_move_FILL0_wght400_GRAD0_opsz48" d="M12.29,18.14l2.94-2.94-2.94-2.94-.84.84,1.5,1.5H8.83v1.2h4.12l-1.5,1.5ZM5.25,20.8a1.136,1.136,0,0,1-.84-.37,1.163,1.163,0,0,1-.36-.83V9.2a1.163,1.163,0,0,1,.36-.83A1.136,1.136,0,0,1,5.25,8h5.6l1.2,1.2h6.8a1.269,1.269,0,0,1,1.2,1.2v9.2a1.269,1.269,0,0,1-1.2,1.2Zm0-11.6V19.6h13.6V10.4h-7.3l-1.2-1.2Zm0,0v0Z" transform="translate(-5944.05 -4871)" fill="currentColor"></path><path id="Path_1892" data-name="Path 1892" d="M0,0H16V16H0Z" transform="translate(-5940 -4865)" fill="none"></path></g></svg>
+
+export default More;

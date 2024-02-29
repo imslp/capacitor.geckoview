@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.input {
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    background: var(--white);
+    color: var(--black);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.section {
+    background-color: rgba(208, 216, 223, 0.2);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2.4rem;
+    color: var(--black);
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-default);
+}
+
+.action {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.action::after {
+    content: '';
+    cursor: pointer;
+    background-image: url('/icons/bin.svg');
+    width: 1.6rem;
+    height: 1.6rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}

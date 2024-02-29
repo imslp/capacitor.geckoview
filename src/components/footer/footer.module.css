@@ -1,0 +1,8 @@
+.footer {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.2rem;
+    color: var(--red-light);
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    width: 100%;
+}
+
+.textarea {
+    height: 15.8rem;
+    resize: none;
+    padding: 1.2rem 2rem;
+    border-radius: 0.8rem;
+    background: var(--white);
+    color: var(--black);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 151%;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.input:focus {
+    outline: 0.3rem solid var(--purple);
+    transition: outline-color 0.3s;
+}
